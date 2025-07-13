@@ -1,10 +1,6 @@
 # Dicionário básico de sentimentos
 dicionario = {
-    "feliz": "positivo",
-    "triste": "negativo",
-    "bom": "positivo",
-    "ruim": "negativo"
-}
+    "feliz": "positivo", "triste": "negativo", "bom": "positivo", "ruim": "negativo"}
 
 # Função para análise de sentimento
 def analise_sentimento(texto):

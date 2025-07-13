@@ -23,7 +23,7 @@ modelo.add(Dense(len(saidas), activation='softmax'))
 modelo.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 modelo.fit(X, y, epochs=300, verbose=0)
 
-# Função de tradução
+# Função de tradução 
 def traduzir(palavra):
     if palavra not in entrada_dict:
         return "Palavra não conhecida"
